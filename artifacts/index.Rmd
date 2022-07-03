@@ -1,7 +1,7 @@
 ---
-title: "Visual Analysis Project"
+title: "Economic Insights for Your City"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Visual analytics project
 author:
   - name: Ding Yanmu
     url: https://dingyanmu.netlify.app/
@@ -49,6 +49,8 @@ If you want to view a more detailed storyboard of our proposal, please click [he
 
 # RSHINY APP
 If embedded RShiny app does not work as intended, do visit [here](https://martinding-hub.shinyapps.io/my_app/) to view the app directly.
+
+If you don't know how to use our shinyApp, you can click here to read the [user guide](https://drive.google.com/file/d/1-M68n90FpSPh4qya0qu8ee-FSEAigGZp/view?usp=sharing).
 
 ```{r, echo = FALSE, eval = TRUE, warning = FALSE, message = FALSE}
 library(knitr)

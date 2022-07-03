@@ -718,11 +718,12 @@ server <- function(input, output){
     
     girafe(
       ggobj = p1,
-      width_svg = 8,
-      height_svg = 8*0.618,
+      width_svg = 20,
+      height_svg = 20*0.618,
       options = list(                        
         opts_hover(css = "fill: #202020;"),  
-        opts_hover_inv(css = "opacity:0.2;") 
+        opts_hover_inv(css = "opacity:0.2;"),
+        opts_sizing(rescale = TRUE, width = 1)
       )     
     )
   })
@@ -766,11 +767,13 @@ server <- function(input, output){
     
     girafe(
       ggobj = p2,
-      width_svg = 8,
-      height_svg = 8*0.618,
+      width_svg = 20,
+      height_svg = 20*0.618,
       options = list(                        
         opts_hover(css = "fill: #202020;"),  
-        opts_hover_inv(css = "opacity:0.2;") )
+        opts_hover_inv(css = "opacity:0.2;"),
+        opts_sizing(rescale = TRUE, width = 1)
+        )
     )
   })
   
@@ -801,11 +804,13 @@ server <- function(input, output){
     
     girafe(
       ggobj = v3,
-      width_svg = 8,
-      height_svg = 8*0.618,
+      width_svg = 20,
+      height_svg = 20*0.618,
       options = list(                        
         opts_hover(css = "fill: #202020;"),  
-        opts_hover_inv(css = "opacity:0.2;") )
+        opts_hover_inv(css = "opacity:0.2;"),
+        opts_sizing(rescale = TRUE, width = 1)
+        )
     )
   })
   
