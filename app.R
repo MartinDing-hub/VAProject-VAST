@@ -28,7 +28,7 @@ logs=read_sf('./data/log1.csv',options='GEOM_POSSIBLE_NAMES=currentLocation')
 
 ##----------Shiny UI----------##
 ui <- navbarPage(
-  title = "ShinyIDEA: Interactive Data Exploration and Analysis (Here, we need to change our own title!!!)",
+  title = "Economic Insights for Your City",
   fluid = TRUE,
   theme=shinytheme("flatly"),
   id = "navbarID",
